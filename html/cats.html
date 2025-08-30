@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <link rel="icon" href="../images/paw-solid-full.svg">
+        <title>Cats</title>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                    
+                <a class="navbar-brand col" href="home.html">
+                    <img src="../images/paw-solid-full.svg" alt="logo" width="40" height="40">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse col-2" id="navbarSupportedContent">
+                
+                    <ul class="navbar-nav mb-2 mb-lg-0 col">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dogs.html">Dogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cats</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" target="_blank" href="https://github.com/Khaled-Ahmed05">
+                                Github
+                                <img id="arrow-right" src="../images/arrow-right.svg" alt="arrow-right">
+                            </a>
+                        </li>
+                    </ul>
+
+                
+                    <form class="d-flex col" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>        
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="../images/cat1_img_Abyssinian.webp" alt="french_bulldog">
+
+                    <div class="carousel-caption">
+                        <h5>The Abyssinian</h5>
+                        <hr>
+                        <p>                 
+                            The Abyssinian is a breed of cat with a distinctive "ticked" tabby coat, 
+                            in which individual hairs are banded with different colours. 
+                            They are also known simply as Abys.
+
+                            The first members of the breed to be exhibited in England were brought 
+                            there from Abyssinia (now known as Ethiopia), hence the name. Genetic 
+                            studies place the breed's origins in Southeast Asia and the coasts of 
+                            the Indian Ocean, however. 
+                            
+                            It is possible that the breed was introduced to Abyssinia by travelers 
+                            who had stopped in Calcutta. Once a comparatively obscure breed, the 
+                            Abyssinian had become one of the top five most popular cat breeds by 2016.
+
+                            The breed's distinctive appearance, seeming long, lean and finely coloured 
+                            compared to other cats, has been analogized to that of human fashion models. 
+                            Personality-wise, the cats traditionally display active, curious attitudes 
+                            in which they frequently follow owners around and encourage play.                       
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../images/cat2_img_Aegean.webp" alt="labrador_retriever">
+
+                    <div class="carousel-caption">
+                        <h5>The Aegean</h5>
+                        <hr>
+                        <p>
+                            The Aegean cats are a naturally occurring landrace of domestic cat originating 
+                            from the Cycladic Islands of Greece and western Turkey. 
+                            
+                            It is considered a natural cat, developing without human interference. Development 
+                            of the Aegean cat as a formal breed began in the early 1990s by breeders in 
+                            the fledgling Greek cat fancy, but the variety has yet to be recognized by any 
+                            major fancier and breeder organization. 
+                            
+                            It is considered to be the only native Greek variety of cat. 
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                    
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../images/cat3_img_AShorthair.webp"alt="golden_retriever">
+
+                    <div class="carousel-caption">
+                        <h5>The American Shorthair</h5>
+                        <hr>
+                        <p>
+                            The American Shorthair is a breed of domestic cat believed to be descended 
+                            from European cats brought to North America by early settlers to protect 
+                            valuable cargo from mice and rats. 
+                            
+                            According to the Cat Fanciers' Association, it was the eighth-most-popular 
+                            pedigreed cat in the world for 2020.   
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <footer class="p-3">
+            <div class="nav justify-content-evenly">
+
+                <div class="d-flex flex-column align-items-center">
+                    <label class="pb-2">Print "Button Clicked!"</label>
+                    <button class="btn btn-primary" onclick="btnClicked()">
+                        Click here!
+                    </button>
+                </div>
+
+                <div class="d-flex flex-column align-items-center">
+                    <label class="pb-2">Print "Hello" every 1 second (togglable)</label>
+                    <button class="btn btn-primary" onclick="helloEverySecond()">
+                        Click here!
+                    </button>
+                </div>
+
+                <div class="d-flex flex-column align-items-center">
+                    <label class="pb-2">Change background color</label>
+                    <button class="btn btn-primary" onclick="changeBgColor()">
+                        Click here!
+                    </button>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
+
+    </body>
+</html>
